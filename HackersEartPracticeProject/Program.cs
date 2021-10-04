@@ -8,18 +8,18 @@ namespace HackersEartPracticeProject
         {
             string a = Console.ReadLine();
             int b;
-           int result= int.TryParse(a, out b)?int.Parse(a):0;
+            int result = int.TryParse(a, out b) ? int.Parse(a) : 0;
 
 
-           for (int k = 1; k <=result; k++)
-           {
-               if (Check_Prime(k) == 1)
-               {
-                   Console.Write(k+" ");
-               }
-           }
+            for (int k = 1; k <= result; k++)
+            {
+                if (Check_Prime(k) == 1)
+                {
+                    Console.Write(k + " ");
+                }
+            }
 
-           Console.ReadLine();
+            Console.ReadLine();
         }
 
 
